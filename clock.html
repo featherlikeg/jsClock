@@ -5,7 +5,10 @@
 		<link rel="stylesheet" href="style.css">
 		<script type="text/javascript" src="script.js"></script>
 		<script> 
-			myClock();
+  		setInterval("myClock()", 1000);
+  		// document.getElementById("hour").innerText = hour;
+  		// document.getElementById("min").innerText = min;
+  		// document.getElementById("sec").innerText = sec;
 		</script>
 		<title>Document</title>
 		<style></style>
@@ -19,17 +22,17 @@
 				<div class="container clear">
 					<div>
 						<p class="title">Hours</p>
-						<p class="num">00</p>
+						<p id="hour" class="num">00</p>
 					</div>
 					<span>:</span>
 					<div>
 						<p class="title">Minutes</p>
-						<p class="num">12</p>
+						<p id="min" class="num">12</p>
 					</div>
 					<span>:</span>
 					<div>
 						<p class="title">Seconds</p>
-						<p class="num">30</p>
+						<p id="sec" class="num">30</p>
 					</div>
 				</div>
 			</section>

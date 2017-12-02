@@ -7,6 +7,10 @@ function myClock() {
 	var sec = time.getSeconds();
 	var ampm = "AM"
 
+	var num_hour = document.getElementById("hour");
+	var num_min = document.getElementById("min");
+	var num_sec = document.getElementById("sec");
+
 	if(hour>12) { 
 		hour = hour - 12;	
 		ampm = "PM";
@@ -24,7 +28,11 @@ function myClock() {
 		sec = "0" + sec;
 	}
 
+	num_hour.innerHTML = hour;
+	num_min.innerHTML = min;
+	num_sec.innerHTML = sec;
 
-	alert(hour+":"+min+":"+sec);
+	// alert(hour+":"+min+":"+sec);
+	console.log(hour+":"+min+":"+sec+ampm);
 
 }
