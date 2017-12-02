@@ -1,0 +1,59 @@
+		/* common */
+		.wrapper {
+			width: 500px;
+			margin: auto;
+			text-align: center;
+		}
+		* {
+			bor der: 1px dotted #e8e8e8;
+			margin: 0;
+			padding: 0;
+		}
+		.clear {
+			overflow: hidden;
+		}
+		section {
+			bo rder: 2px solid black;
+			width: 500px;
+			pos ition: absolute;
+			margin-top : 40px;
+		}
+		.container {
+			width: 100%;
+			background-color: #fff;
+			padding: 20px;
+			box-sizing: border-box;
+			text-align: center;
+		}
+		.container span {
+			float: left;
+		}
+		.container div {
+			width: 30%;
+			float: left;
+			text-align: center;
+		}
+		.title {}
+		.num {
+			font-size: 50px;
+			font-weight: bold;
+		}
+		
+		h2 {
+			width: 49%;
+			text-align: center;
+			position: relative;
+			top:-40px;
+		}
+
+		/* clock */ 
+		.clock h2 { 
+			background-color: #e8e8e8; 
+			float: left;
+		}
+
+		/* timer */ 
+		.timer h2 { 
+			background-color: #e5e5e5; 
+			float: right;
+		}
