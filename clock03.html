@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Clock</title>
+	<script type="text/javascript" src="script03.js"></script>
+	<script>
+		setInterval("myClock()",1000);
+	</script>
+</head>
+
+<body>
+	<p> 
+		<script> 
+			myDate();
+		</script>
+	</p>
+
+	<button> Clock </button>
+	<button> Timer </button>
+
+	<p id="clock"> 00 </p>
+
+	<p id="timer"> 00 </p>
+	<button id="start" onclick="start()"> start </button>
+	<button id="stop"> stop </button>
+	<button id="reset"> reset </button>
+</body>
+</html>
